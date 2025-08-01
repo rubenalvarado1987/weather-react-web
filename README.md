@@ -21,7 +21,7 @@ Esta app permite consultar el tiempo actual y el clima de una ciudad.
 
 - Node.js (v18.x o superior)
 - Yarn (v1.x o superior)
-- Generate .env file with VITE_API_KEY_WEATHER VITE_API_KEY_WEATHER="ad8485bb37ab490a849115504253107"
+- Generate .env file with VITE_API_KEY_WEATHER VITE_API_KEY_WEATHER="yourKey"
 
 ---
 
