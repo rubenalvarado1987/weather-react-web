@@ -16,7 +16,7 @@ const App: React.FC = () => {
     <>
       <div className="flex justify-center items-center flex-col p-4">
         <h1 className="text-4xl font-bold mb-4 mf-4">Weather App</h1>
-        <p className="text-gray-700 card">
+        <p className="text-cian-700 card">
           Ingrese una cuidad y verá la previsión del tiempo
         </p>
         <SearchBar onSearch={handleSearch} />
