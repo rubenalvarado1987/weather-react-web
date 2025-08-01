@@ -16,7 +16,9 @@ const App: React.FC = () => {
     <>
       <div className="flex justify-center items-center flex-col p-4">
         <h1 className="text-4xl font-bold mb-4 mf-4">Weather App</h1>
-        <p>This is a weather app built with React and TypeScript.</p>
+        <p className="text-gray-700 card">
+          Ingrese una cuidad y verá la previsión del tiempo
+        </p>
         <SearchBar onSearch={handleSearch} />
         {weather && <CardWeather weather={weather} />}
       </div>
