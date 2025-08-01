@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import { test } from "vitest";
+import test from "vitest";
 import tailwindcsspost from "@tailwindcss/postcss";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -30,9 +30,10 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
   },
-  e2e: {
-    supportFile: false,
-    specPattern: "src/e2e/**/*.cy.{js,jsx,ts,tsx}",
-    baseUrl: "http://localhost:5173",
-  },
+  base: "./",
+  // e2e: {
+  //   supportFile: false,
+  //   specPattern: "src/e2e/**/*.cy.{js,jsx,ts,tsx}",
+  //   baseUrl: "http://localhost:5173",
+  // },
 });
