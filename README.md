@@ -1,4 +1,4 @@
-# 📦 Preeba de la App React
+# 📦 Weather App React
 
 Aplicación web construida con **React**, **TypeScript**, **Vite** y **TailwindCSS**.
 Esta app permite consultar el tiempo actual y el clima de una ciudad.
