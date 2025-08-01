@@ -1,10 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import test from "vitest";
 import tailwindcsspost from "@tailwindcss/postcss";
 import tailwindcss from "@tailwindcss/vite";
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { test } from "vitest";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],

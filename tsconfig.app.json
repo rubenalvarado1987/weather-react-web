@@ -30,7 +30,8 @@
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./src/assets/*"],
       "@styles/*": ["./src/styles/*"],
-      "@pages/*": ["./src/pages/*"]
+      "@pages/*": ["./src/pages/*"],
+      "vitest": ["./node_modules/vitest"]
     }
   },
   "include": ["src", "webpack.config.ts"]
