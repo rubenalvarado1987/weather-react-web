@@ -40,7 +40,11 @@ Esta app permite consultar el tiempo actual y el clima de una ciudad.
 
    ```
 
-3. Testea la aplicación:
+3. Test Unitarios de la aplicación:
    ```bash
    npm run test
+   ```
+4. Test e2e de la aplicación:
+   ```bash
+   npm run e2e
    ```
