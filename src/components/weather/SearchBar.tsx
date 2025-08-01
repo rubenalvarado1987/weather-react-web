@@ -19,6 +19,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="Santiago de Chile"
+        data-testid="city-input"
       />
       <button
         onClick={handleSearch}

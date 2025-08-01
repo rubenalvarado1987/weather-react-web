@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import { test } from "vitest";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,5 +17,15 @@ export default defineConfig({
       "@pages": path.resolve(__dirname, "./src/pages"),
       // ...otros alias
     },
+  },
+  test: {
+    // ...
+    environment: "jsdom",
+    globals: true,
+  },
+  e2e: {
+    supportFile: false,
+    specPattern: "src/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    baseUrl: "http://localhost:5173",
   },
 });
